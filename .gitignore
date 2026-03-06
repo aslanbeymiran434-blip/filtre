@@ -1,0 +1,7 @@
+node_modules/
+.mgx/
+dist/
+.env
+*.lock
+__pycache__/
+*.pyc

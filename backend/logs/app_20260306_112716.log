@@ -627,3 +627,59 @@
 2026-03-06 12:00:06,114 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
 2026-03-06 12:00:06,480 - routers.notifications - DEBUG - Found 8 notificationss
 2026-03-06 12:00:06,481 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3687s
+2026-03-06 12:00:36,085 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:00:36,085 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:00:36,086 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:00:36,495 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 12:00:36,496 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4110s
+2026-03-06 12:00:58,066 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:00:58,066 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-06 12:00:58,066 - routers.notifications - DEBUG - Updating notifications 2 with data: type=None title=None message=None chat_name=None severity=None is_read=True created_at=None
+2026-03-06 12:00:58,068 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:00:58,068 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 12:00:58,068 - routers.notifications - DEBUG - Updating notifications 1 with data: type=None title=None message=None chat_name=None severity=None is_read=True created_at=None
+2026-03-06 12:00:58,069 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:00:58,069 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 12:00:58,069 - routers.notifications - DEBUG - Updating notifications 4 with data: type=None title=None message=None chat_name=None severity=None is_read=True created_at=None
+2026-03-06 12:00:58,070 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:00:58,070 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 12:00:58,070 - routers.notifications - DEBUG - Updating notifications 3 with data: type=None title=None message=None chat_name=None severity=None is_read=True created_at=None
+2026-03-06 12:00:58,894 - services.notifications - INFO - Updated notifications 1
+2026-03-06 12:00:58,894 - routers.notifications - INFO - Notifications 1 updated successfully
+2026-03-06 12:00:58,895 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.8271s
+2026-03-06 12:00:58,895 - services.notifications - INFO - Updated notifications 4
+2026-03-06 12:00:58,895 - routers.notifications - INFO - Notifications 4 updated successfully
+2026-03-06 12:00:58,896 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.8270s
+2026-03-06 12:00:58,898 - services.notifications - INFO - Updated notifications 3
+2026-03-06 12:00:58,898 - routers.notifications - INFO - Notifications 3 updated successfully
+2026-03-06 12:00:58,899 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.8288s
+2026-03-06 12:00:58,951 - services.notifications - INFO - Updated notifications 2
+2026-03-06 12:00:58,951 - routers.notifications - INFO - Notifications 2 updated successfully
+2026-03-06 12:00:58,951 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.8853s
+2026-03-06 12:01:05,915 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:01:05,915 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:01:05,916 - routers.notifications - DEBUG - Deleting notifications with id: 1
+2026-03-06 12:01:06,274 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:01:06,275 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 12:01:06,275 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:01:06,399 - services.notifications - INFO - Deleted notifications 1
+2026-03-06 12:01:06,400 - routers.notifications - INFO - Notifications 1 deleted successfully
+2026-03-06 12:01:06,400 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4857s
+2026-03-06 12:01:06,632 - routers.notifications - DEBUG - Found 7 notificationss
+2026-03-06 12:01:06,633 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3583s
+2026-03-06 12:01:07,347 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:01:07,348 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-06 12:01:07,348 - routers.notifications - DEBUG - Deleting notifications with id: 2
+2026-03-06 12:01:07,949 - services.notifications - INFO - Deleted notifications 2
+2026-03-06 12:01:07,950 - routers.notifications - INFO - Notifications 2 deleted successfully
+2026-03-06 12:01:07,950 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6030s
+2026-03-06 12:01:37,087 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:01:37,087 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-06 12:01:37,088 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:01:37,556 - routers.notifications - DEBUG - Found 6 notificationss
+2026-03-06 12:01:37,557 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4698s
+2026-03-06 12:02:07,086 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:02:07,087 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:02:07,087 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:02:07,437 - routers.notifications - DEBUG - Found 6 notificationss
+2026-03-06 12:02:07,438 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3521s
