@@ -6,9 +6,26 @@ let runtimeConfig: {
 // Configuration loading state
 let configLoading = true;
 
+function getDefaultApiBaseUrl(): string {
+  if (typeof window === 'undefined') {
+    return 'http://127.0.0.1:8000';
+  }
+
+  const hostname = window.location.hostname;
+  const isLocalHost = hostname === 'localhost' || hostname === '127.0.0.1';
+
+  // Local development fallback keeps current behavior.
+  if (isLocalHost) {
+    return 'http://127.0.0.1:8000';
+  }
+
+  // In deployed environments (Railway, etc.), default to same-origin API.
+  return window.location.origin;
+}
+
 // Default fallback configuration
 const defaultConfig = {
-  API_BASE_URL: 'http://127.0.0.1:8000', // Only used if runtime config fails to load
+  API_BASE_URL: getDefaultApiBaseUrl(), // Only used if runtime config and Vite env are missing
 };
 
 // Function to load runtime configuration
