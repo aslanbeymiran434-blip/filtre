@@ -1,0 +1,74 @@
+[
+    {
+        "type": "warning",
+        "title": "Yeni Uyarı",
+        "message": "Kullanıcı @mehmet spam mesaj gönderdiği için uyarıldı",
+        "chat_name": "Ana Grup",
+        "severity": "warning",
+        "is_read": false,
+        "created_at": "2026-03-06 14:30:00"
+    },
+    {
+        "type": "blocked_link",
+        "title": "Link Engellendi",
+        "message": "Yetkisiz link paylaşımı tespit edildi ve silindi",
+        "chat_name": "Teknoloji Grubu",
+        "severity": "error",
+        "is_read": false,
+        "created_at": "2026-03-06 14:15:00"
+    },
+    {
+        "type": "filter_trigger",
+        "title": "Filtre Tetiklendi",
+        "message": "\"hoşgeldin\" filtresi tetiklendi, karşılama mesajı gönderildi",
+        "chat_name": "Ana Grup",
+        "severity": "info",
+        "is_read": false,
+        "created_at": "2026-03-06 13:45:00"
+    },
+    {
+        "type": "bot_status",
+        "title": "Bot Yeniden Bağlandı",
+        "message": "Bot bağlantısı başarıyla yenilendi",
+        "chat_name": null,
+        "severity": "success",
+        "is_read": false,
+        "created_at": "2026-03-06 13:00:00"
+    },
+    {
+        "type": "warning",
+        "title": "Mute Uygulandı",
+        "message": "Kullanıcı @ali 3 uyarıya ulaştığı için 60 dakika susturuldu",
+        "chat_name": "Sohbet Grubu",
+        "severity": "warning",
+        "is_read": true,
+        "created_at": "2026-03-06 12:30:00"
+    },
+    {
+        "type": "blocked_link",
+        "title": "Toplu Link Engelleme",
+        "message": "Son 1 saatte 5 yetkisiz link engellendi",
+        "chat_name": "Kripto Grubu",
+        "severity": "error",
+        "is_read": true,
+        "created_at": "2026-03-06 11:00:00"
+    },
+    {
+        "type": "system",
+        "title": "Sistem Güncellemesi",
+        "message": "Koruma ayarları başarıyla güncellendi",
+        "chat_name": null,
+        "severity": "info",
+        "is_read": true,
+        "created_at": "2026-03-06 10:00:00"
+    },
+    {
+        "type": "filter_trigger",
+        "title": "Filtre Tetiklendi",
+        "message": "\"kurallar\" filtresi tetiklendi",
+        "chat_name": "Teknoloji Grubu",
+        "severity": "info",
+        "is_read": true,
+        "created_at": "2026-03-06 09:30:00"
+    }
+]

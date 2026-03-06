@@ -1,0 +1,38 @@
+[
+    {
+        "command_name": "deepseek",
+        "site_name": "DeepSeek AI",
+        "site_url": "https://deepseek.com",
+        "message_text": "🤖 DeepSeek AI - Yapay zeka asistanı",
+        "button_text": "DeepSeek'e Git",
+        "button_url": "https://deepseek.com",
+        "created_at": "2026-03-01 10:00:00"
+    },
+    {
+        "command_name": "chatgpt",
+        "site_name": "ChatGPT",
+        "site_url": "https://chat.openai.com",
+        "message_text": "💬 ChatGPT - OpenAI sohbet botu",
+        "button_text": "ChatGPT'ye Git",
+        "button_url": "https://chat.openai.com",
+        "created_at": "2026-03-01 10:00:00"
+    },
+    {
+        "command_name": "github",
+        "site_name": "GitHub",
+        "site_url": "https://github.com",
+        "message_text": "🐙 GitHub - Kod paylaşım platformu",
+        "button_text": "GitHub'a Git",
+        "button_url": "https://github.com",
+        "created_at": "2026-03-01 10:00:00"
+    },
+    {
+        "command_name": "telegram",
+        "site_name": "Telegram Web",
+        "site_url": "https://web.telegram.org",
+        "message_text": "📱 Telegram Web - Tarayıcıdan mesajlaş",
+        "button_text": "Telegram Web",
+        "button_url": "https://web.telegram.org",
+        "created_at": "2026-03-01 10:00:00"
+    }
+]

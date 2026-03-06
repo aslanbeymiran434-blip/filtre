@@ -1,0 +1,187 @@
+2026-03-06 11:07:45,645 - main - INFO - === Logging system initialized ===
+2026-03-06 11:07:45,646 - main - INFO - Log file: logs/app_20260306_110745.log
+2026-03-06 11:07:45,646 - main - INFO - Log level: INFO
+2026-03-06 11:07:45,646 - main - INFO - Timestamp: 20260306_110745
+2026-03-06 11:07:46,938 - main - INFO - Included router: routers.aihub.router
+2026-03-06 11:07:46,967 - main - INFO - Included router: routers.auth.router
+2026-03-06 11:07:46,970 - main - INFO - Included router: routers.health.router
+2026-03-06 11:07:47,104 - main - INFO - Included router: routers.notifications.router
+2026-03-06 11:07:47,199 - main - INFO - Included router: routers.settings.router
+2026-03-06 11:07:47,244 - main - INFO - Included router: routers.storage.router
+2026-03-06 11:07:47,426 - main - INFO - Included router: routers.telegram.router
+2026-03-06 11:07:47,435 - main - INFO - Included router: routers.user.router
+2026-03-06 11:07:47,436 - main - INFO - === Application startup initiated ===
+2026-03-06 11:07:47,436 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-03-06 11:07:47,436 - services.database - INFO - 🔧 Starting database initialization...
+2026-03-06 11:07:47,436 - core.database - INFO - Starting database initialization...
+2026-03-06 11:07:47,436 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-03-06 11:07:47,437 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-03-06 11:07:47,437 - core.database - INFO - Creating async database engine...
+2026-03-06 11:07:47,438 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-03-06 11:07:47,491 - core.database - INFO - Database engine created successfully
+2026-03-06 11:07:47,491 - core.database - INFO - Creating async session maker...
+2026-03-06 11:07:47,491 - core.database - INFO - Async session maker created successfully
+2026-03-06 11:07:47,491 - core.database - INFO - Database connection initialized successfully
+2026-03-06 11:07:47,491 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-03-06 11:07:47,491 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-06 11:07:47,492 - core.database - INFO - 🔧 Starting table creation...
+2026-03-06 11:07:48,781 - core.database - INFO - Tables initialized successfully
+2026-03-06 11:07:48,782 - core.database - DEBUG - [DB_OP] Create tables completed in 1.2902s
+2026-03-06 11:07:48,841 - services.database - INFO - 🔧 Table creation completed
+2026-03-06 11:07:48,841 - services.database - INFO - Database initialized successfully
+2026-03-06 11:07:48,842 - services.database - DEBUG - [DB_OP] Database initialization completed in 1.4059s
+2026-03-06 11:07:48,843 - services.mock_data - INFO - Processing mock data file notifications.json for table notifications
+2026-03-06 11:07:50,850 - services.mock_data - INFO - Table notifications already has 8 rows; skipping mock insert
+2026-03-06 11:07:50,910 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-03-06 11:07:50,916 - services.database - INFO - 🔧 Starting database initialization...
+2026-03-06 11:07:50,917 - core.database - INFO - Starting database initialization...
+2026-03-06 11:07:50,917 - core.database - INFO - Database already initialized
+2026-03-06 11:07:50,917 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-03-06 11:07:50,918 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-06 11:07:50,918 - core.database - INFO - Tables already initialized
+2026-03-06 11:07:50,918 - services.database - INFO - 🔧 Table creation completed
+2026-03-06 11:07:50,918 - services.database - INFO - Database initialized successfully
+2026-03-06 11:07:50,918 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0078s
+2026-03-06 11:07:50,918 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-03-06 11:07:50,918 - core.config - DEBUG - Read dynamic attribute admin_user_email from environment variable ADMIN_USER_EMAIL
+2026-03-06 11:07:51,276 - services.auth - DEBUG - Admin user 993861 already exists
+2026-03-06 11:07:51,335 - main - INFO - === Application startup completed successfully ===
+2026-03-06 11:07:56,026 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:07:56,027 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:07:56,028 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:07:56,520 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:07:56,521 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4949s
+2026-03-06 11:08:26,099 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:08:26,106 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0062s
+2026-03-06 11:08:26,107 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:08:26,535 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:08:26,536 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4367s
+2026-03-06 11:08:56,114 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:08:56,114 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-03-06 11:08:56,115 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:08:56,476 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:08:56,477 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3632s
+2026-03-06 11:09:26,099 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:09:26,099 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:09:26,099 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:09:26,466 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:09:26,467 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3684s
+2026-03-06 11:09:56,106 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:09:56,108 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0023s
+2026-03-06 11:09:56,109 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:09:56,525 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:09:56,526 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4205s
+2026-03-06 11:10:26,122 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:10:26,122 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 11:10:26,123 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:10:26,497 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:10:26,502 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3797s
+2026-03-06 11:10:56,099 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:10:56,099 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:10:56,099 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:10:56,456 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:10:56,457 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3584s
+2026-03-06 11:11:26,099 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:11:26,099 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 11:11:26,100 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:11:26,514 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:11:26,515 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4160s
+2026-03-06 11:11:56,095 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:11:56,096 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 11:11:56,096 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:11:56,458 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:11:56,463 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3679s
+2026-03-06 11:12:26,101 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:12:26,103 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0020s
+2026-03-06 11:12:26,104 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:12:26,465 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:12:26,465 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3647s
+2026-03-06 11:12:56,131 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:12:56,131 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:12:56,142 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:12:56,853 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:12:56,854 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.7234s
+2026-03-06 11:13:26,098 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:13:26,106 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0074s
+2026-03-06 11:13:26,108 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:13:26,481 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:13:26,482 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3840s
+2026-03-06 11:13:56,094 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:13:56,095 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-03-06 11:13:56,096 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:13:56,452 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:13:56,453 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3589s
+2026-03-06 11:13:57,098 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:13:57,098 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:13:57,099 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 11:13:57,550 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:13:57,551 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4526s
+2026-03-06 11:14:26,099 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:14:26,099 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 11:14:26,099 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:14:26,456 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:14:26,457 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3584s
+2026-03-06 11:14:56,093 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:14:56,094 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0011s
+2026-03-06 11:14:56,094 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:14:56,458 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:14:56,459 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3659s
+2026-03-06 11:15:26,118 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:15:26,118 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:15:26,118 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:15:26,537 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:15:26,538 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4205s
+2026-03-06 11:15:43,288 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:15:43,289 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:15:43,313 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 11:15:43,315 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:15:43,315 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 11:15:43,316 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:15:43,670 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:15:43,671 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3823s
+2026-03-06 11:15:44,022 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:15:44,023 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.7080s
+2026-03-06 11:15:56,101 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:15:56,102 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0016s
+2026-03-06 11:15:56,103 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:15:56,470 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:15:56,472 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3708s
+2026-03-06 11:16:26,100 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:26,103 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0025s
+2026-03-06 11:16:26,104 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:16:26,530 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:26,530 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4300s
+2026-03-06 11:16:33,523 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:33,523 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:16:33,524 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 11:16:33,525 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:33,525 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 11:16:33,526 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:16:33,878 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:33,879 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3539s
+2026-03-06 11:16:33,937 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:33,938 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4152s
+2026-03-06 11:16:34,272 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:34,272 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-06 11:16:34,273 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 11:16:34,275 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:34,275 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-06 11:16:34,275 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:16:34,631 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:34,632 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3573s
+2026-03-06 11:16:34,682 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:34,683 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4107s
+2026-03-06 11:16:49,207 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:49,208 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 11:16:49,209 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 11:16:49,213 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 11:16:49,213 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-06 11:16:49,214 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 11:16:49,565 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:49,566 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3530s
+2026-03-06 11:16:49,566 - routers.notifications - DEBUG - Found 8 notificationss
+2026-03-06 11:16:49,567 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3595s
+2026-03-06 11:17:15,921 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-06 11:17:16,047 - core.database - INFO - Database connection closed and engine disposed
+2026-03-06 11:17:16,048 - services.database - INFO - Database connections closed
+2026-03-06 11:17:16,048 - services.database - DEBUG - [DB_OP] Database close completed in 0.1270s

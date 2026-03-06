@@ -1,0 +1,49 @@
+2026-02-28 00:26:26,840 - main - INFO - === Logging system initialized ===
+2026-02-28 00:26:26,840 - main - INFO - Log file: logs/app_20260228_002626.log
+2026-02-28 00:26:26,840 - main - INFO - Log level: INFO
+2026-02-28 00:26:26,840 - main - INFO - Timestamp: 20260228_002626
+2026-02-28 00:26:28,089 - main - INFO - Included router: routers.aihub.router
+2026-02-28 00:26:28,113 - main - INFO - Included router: routers.auth.router
+2026-02-28 00:26:28,116 - main - INFO - Included router: routers.health.router
+2026-02-28 00:26:28,139 - main - INFO - Included router: routers.settings.router
+2026-02-28 00:26:28,270 - main - INFO - Included router: routers.storage.router
+2026-02-28 00:26:28,299 - main - INFO - Included router: routers.user.router
+2026-02-28 00:26:28,300 - main - INFO - === Application startup initiated ===
+2026-02-28 00:26:28,300 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-02-28 00:26:28,301 - services.database - INFO - 🔧 Starting database initialization...
+2026-02-28 00:26:28,301 - core.database - INFO - Starting database initialization...
+2026-02-28 00:26:28,301 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-02-28 00:26:28,301 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-02-28 00:26:28,302 - core.database - INFO - Creating async database engine...
+2026-02-28 00:26:28,302 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-02-28 00:26:28,380 - core.database - INFO - Database engine created successfully
+2026-02-28 00:26:28,381 - core.database - INFO - Creating async session maker...
+2026-02-28 00:26:28,381 - core.database - INFO - Async session maker created successfully
+2026-02-28 00:26:28,381 - core.database - INFO - Database connection initialized successfully
+2026-02-28 00:26:28,381 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-02-28 00:26:28,381 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-02-28 00:26:28,381 - core.database - INFO - 🔧 Starting table creation...
+2026-02-28 00:26:29,613 - core.database - INFO - Tables initialized successfully
+2026-02-28 00:26:29,613 - core.database - DEBUG - [DB_OP] Create tables completed in 1.2321s
+2026-02-28 00:26:29,672 - services.database - INFO - 🔧 Table creation completed
+2026-02-28 00:26:29,672 - services.database - INFO - Database initialized successfully
+2026-02-28 00:26:29,672 - services.database - DEBUG - [DB_OP] Database initialization completed in 1.3719s
+2026-02-28 00:26:29,673 - services.mock_data - INFO - mock_data directory not found, skipping mock initialization
+2026-02-28 00:26:29,673 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-02-28 00:26:29,673 - services.database - INFO - 🔧 Starting database initialization...
+2026-02-28 00:26:29,673 - core.database - INFO - Starting database initialization...
+2026-02-28 00:26:29,673 - core.database - INFO - Database already initialized
+2026-02-28 00:26:29,674 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-02-28 00:26:29,674 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-02-28 00:26:29,674 - core.database - INFO - Tables already initialized
+2026-02-28 00:26:29,675 - services.database - INFO - 🔧 Table creation completed
+2026-02-28 00:26:29,675 - services.database - INFO - Database initialized successfully
+2026-02-28 00:26:29,675 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0019s
+2026-02-28 00:26:29,675 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-02-28 00:26:29,675 - core.config - DEBUG - Read dynamic attribute admin_user_email from environment variable ADMIN_USER_EMAIL
+2026-02-28 00:26:30,092 - services.auth - DEBUG - Admin user 993861 already exists
+2026-02-28 00:26:30,151 - main - INFO - === Application startup completed successfully ===
+2026-02-28 00:44:34,660 - services.database - DEBUG - [DB_OP] Starting database close
+2026-02-28 00:44:34,661 - core.database - INFO - Database connection closed and engine disposed
+2026-02-28 00:44:34,661 - services.database - INFO - Database connections closed
+2026-02-28 00:44:34,662 - services.database - DEBUG - [DB_OP] Database close completed in 0.0016s

@@ -1,0 +1,48 @@
+{
+    "title": "notifications",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "type": {
+            "type": "string",
+            "description": "Notification type: warning, blocked_link, filter_trigger, bot_status, system"
+        },
+        "title": {
+            "type": "string",
+            "description": "Notification title"
+        },
+        "message": {
+            "type": "string",
+            "description": "Notification message content"
+        },
+        "chat_name": {
+            "type": "string",
+            "description": "Related chat/group name, nullable"
+        },
+        "severity": {
+            "type": "string",
+            "description": "Severity level: info, warning, error, success"
+        },
+        "is_read": {
+            "type": "boolean",
+            "description": "Whether notification has been read, default false"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Notification creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "type",
+        "title",
+        "message",
+        "severity",
+        "is_read",
+        "created_at"
+    ]
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "user_id_tg": 123456789,
+        "user_name": "Ahmet Yılmaz",
+        "warning_count": 3,
+        "last_warning_date": "2026-03-06 14:30",
+        "mute_end": "2026-03-06 15:30",
+        "is_muted": true,
+        "created_at": "2026-03-01 10:00:00"
+    },
+    {
+        "user_id_tg": 987654321,
+        "user_name": "Mehmet Kaya",
+        "warning_count": 2,
+        "last_warning_date": "2026-03-06 12:15",
+        "mute_end": null,
+        "is_muted": false,
+        "created_at": "2026-03-02 10:00:00"
+    },
+    {
+        "user_id_tg": 456789123,
+        "user_name": "Ayşe Demir",
+        "warning_count": 1,
+        "last_warning_date": "2026-03-05 18:45",
+        "mute_end": null,
+        "is_muted": false,
+        "created_at": "2026-03-03 10:00:00"
+    },
+    {
+        "user_id_tg": 321654987,
+        "user_name": "Fatma Çelik",
+        "warning_count": 3,
+        "last_warning_date": "2026-03-06 09:00",
+        "mute_end": "2026-03-06 10:00",
+        "is_muted": true,
+        "created_at": "2026-03-04 10:00:00"
+    },
+    {
+        "user_id_tg": 654987321,
+        "user_name": "Ali Öztürk",
+        "warning_count": 1,
+        "last_warning_date": "2026-03-04 20:30",
+        "mute_end": null,
+        "is_muted": false,
+        "created_at": "2026-03-05 10:00:00"
+    }
+]

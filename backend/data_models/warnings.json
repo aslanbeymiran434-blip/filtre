@@ -1,0 +1,46 @@
+{
+    "title": "warnings",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id_tg": {
+            "type": "integer",
+            "description": "Telegram user ID"
+        },
+        "user_name": {
+            "type": "string",
+            "description": "Telegram username"
+        },
+        "warning_count": {
+            "type": "integer",
+            "description": "Number of warnings"
+        },
+        "last_warning_date": {
+            "type": "string",
+            "description": "Last warning date string"
+        },
+        "mute_end": {
+            "type": "string",
+            "description": "Mute end time, nullable"
+        },
+        "is_muted": {
+            "type": "boolean",
+            "description": "Whether user is muted"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id_tg",
+        "user_name",
+        "warning_count",
+        "is_muted"
+    ]
+}

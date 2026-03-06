@@ -1,0 +1,41 @@
+{
+    "title": "chat_groups",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "chat_id": {
+            "type": "string",
+            "description": "Telegram chat ID"
+        },
+        "chat_name": {
+            "type": "string",
+            "description": "Group name"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Whether group is active"
+        },
+        "member_count": {
+            "type": "integer",
+            "description": "Member count"
+        },
+        "added_date": {
+            "type": "string",
+            "description": "Date when added"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "chat_id",
+        "chat_name",
+        "is_active"
+    ]
+}

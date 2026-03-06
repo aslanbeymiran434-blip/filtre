@@ -1,0 +1,32 @@
+[
+    {
+        "filter_name": "hoşgeldin",
+        "description": "Gruba hoş geldiniz! Kuralları okumayı unutmayın.",
+        "buttons_json": "[{\"text\": \"Kurallar\", \"url\": \"https://example.com/rules\"}]",
+        "link": "",
+        "assigned_chat_ids": "[\"-1001234567890\", \"-1009876543210\"]",
+        "is_active": true,
+        "created_date": "2026-02-01",
+        "created_at": "2026-02-01 10:00:00"
+    },
+    {
+        "filter_name": "kurallar",
+        "description": "📋 Grup Kuralları:\n1. Spam yasaktır\n2. Link paylaşımı izne tabidir\n3. Saygılı olun",
+        "buttons_json": "[]",
+        "link": "",
+        "assigned_chat_ids": "[\"-1001234567890\"]",
+        "is_active": true,
+        "created_date": "2026-02-10",
+        "created_at": "2026-02-10 10:00:00"
+    },
+    {
+        "filter_name": "yardım",
+        "description": "🆘 Yardım menüsü: /warn - Uyarı ver, /mute - Sustur, /ban - Yasakla",
+        "buttons_json": "[{\"text\": \"Detaylı Yardım\", \"url\": \"https://example.com/help\"}]",
+        "link": "",
+        "assigned_chat_ids": "[\"-1001234567890\", \"-1009876543210\", \"-1005551234567\"]",
+        "is_active": true,
+        "created_date": "2026-02-15",
+        "created_at": "2026-02-15 10:00:00"
+    }
+]

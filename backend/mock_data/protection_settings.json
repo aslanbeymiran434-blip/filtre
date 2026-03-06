@@ -1,0 +1,22 @@
+[
+    {
+        "setting_key": "link_protection",
+        "setting_value": "true",
+        "updated_at": "2026-03-06 10:00:00"
+    },
+    {
+        "setting_key": "warning_limit",
+        "setting_value": "3",
+        "updated_at": "2026-03-06 10:00:00"
+    },
+    {
+        "setting_key": "mute_duration",
+        "setting_value": "60",
+        "updated_at": "2026-03-06 10:00:00"
+    },
+    {
+        "setting_key": "banned_words",
+        "setting_value": "[\"spam\", \"reklam\", \"küfür1\", \"küfür2\", \"dolandırıcı\"]",
+        "updated_at": "2026-03-06 10:00:00"
+    }
+]

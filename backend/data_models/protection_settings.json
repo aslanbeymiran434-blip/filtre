@@ -1,0 +1,28 @@
+{
+    "title": "protection_settings",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "setting_key": {
+            "type": "string",
+            "description": "Setting key name"
+        },
+        "setting_value": {
+            "type": "string",
+            "description": "Setting value as JSON string"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Last update timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "setting_key",
+        "setting_value"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "title": "bot_filters",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "filter_name": {
+            "type": "string",
+            "description": "Filter trigger keyword"
+        },
+        "description": {
+            "type": "string",
+            "description": "Filter description/message"
+        },
+        "buttons_json": {
+            "type": "string",
+            "description": "JSON string of inline buttons array"
+        },
+        "link": {
+            "type": "string",
+            "description": "Optional link"
+        },
+        "assigned_chat_ids": {
+            "type": "string",
+            "description": "JSON string of assigned chat ID array"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Whether filter is active"
+        },
+        "created_date": {
+            "type": "string",
+            "description": "Creation date"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "filter_name",
+        "is_active"
+    ]
+}

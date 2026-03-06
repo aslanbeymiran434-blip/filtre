@@ -1,0 +1,45 @@
+{
+    "title": "site_commands",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "command_name": {
+            "type": "string",
+            "description": "Command trigger word"
+        },
+        "site_name": {
+            "type": "string",
+            "description": "Site display name"
+        },
+        "site_url": {
+            "type": "string",
+            "description": "Site URL"
+        },
+        "message_text": {
+            "type": "string",
+            "description": "Message text to send"
+        },
+        "button_text": {
+            "type": "string",
+            "description": "Inline button text"
+        },
+        "button_url": {
+            "type": "string",
+            "description": "Inline button URL"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "command_name",
+        "site_name",
+        "site_url"
+    ]
+}
