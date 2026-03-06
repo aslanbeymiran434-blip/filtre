@@ -1,0 +1,100 @@
+2026-03-06 12:03:59,501 - main - INFO - === Logging system initialized ===
+2026-03-06 12:03:59,502 - main - INFO - Log file: logs/app_20260306_120359.log
+2026-03-06 12:03:59,502 - main - INFO - Log level: INFO
+2026-03-06 12:03:59,502 - main - INFO - Timestamp: 20260306_120359
+2026-03-06 12:04:00,850 - main - INFO - Included router: routers.aihub.router
+2026-03-06 12:04:00,876 - main - INFO - Included router: routers.auth.router
+2026-03-06 12:04:00,935 - main - INFO - Included router: routers.authorized_roles.router
+2026-03-06 12:04:01,091 - main - INFO - Included router: routers.bot_filters.router
+2026-03-06 12:04:01,151 - main - INFO - Included router: routers.chat_groups.router
+2026-03-06 12:04:01,155 - main - INFO - Included router: routers.health.router
+2026-03-06 12:04:01,212 - main - INFO - Included router: routers.notifications.router
+2026-03-06 12:04:01,261 - main - INFO - Included router: routers.protection_settings.router
+2026-03-06 12:04:01,284 - main - INFO - Included router: routers.settings.router
+2026-03-06 12:04:01,337 - main - INFO - Included router: routers.site_commands.router
+2026-03-06 12:04:01,376 - main - INFO - Included router: routers.storage.router
+2026-03-06 12:04:01,586 - main - INFO - Included router: routers.telegram.router
+2026-03-06 12:04:01,597 - main - INFO - Included router: routers.user.router
+2026-03-06 12:04:01,651 - main - INFO - Included router: routers.warnings.router
+2026-03-06 12:04:01,652 - main - INFO - === Application startup initiated ===
+2026-03-06 12:04:01,652 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-03-06 12:04:01,653 - services.database - INFO - 🔧 Starting database initialization...
+2026-03-06 12:04:01,653 - core.database - INFO - Starting database initialization...
+2026-03-06 12:04:01,653 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-03-06 12:04:01,653 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-03-06 12:04:01,654 - core.database - INFO - Creating async database engine...
+2026-03-06 12:04:01,654 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-03-06 12:04:01,725 - core.database - INFO - Database engine created successfully
+2026-03-06 12:04:01,725 - core.database - INFO - Creating async session maker...
+2026-03-06 12:04:01,725 - core.database - INFO - Async session maker created successfully
+2026-03-06 12:04:01,725 - core.database - INFO - Database connection initialized successfully
+2026-03-06 12:04:01,725 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-03-06 12:04:01,726 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-06 12:04:01,726 - core.database - INFO - 🔧 Starting table creation...
+2026-03-06 12:04:03,384 - core.database - INFO - Tables initialized successfully
+2026-03-06 12:04:03,384 - core.database - DEBUG - [DB_OP] Create tables completed in 1.6585s
+2026-03-06 12:04:03,445 - services.database - INFO - 🔧 Table creation completed
+2026-03-06 12:04:03,445 - services.database - INFO - Database initialized successfully
+2026-03-06 12:04:03,446 - services.database - DEBUG - [DB_OP] Database initialization completed in 1.7934s
+2026-03-06 12:04:03,447 - services.mock_data - INFO - Processing mock data file authorized_roles.json for table authorized_roles
+2026-03-06 12:04:03,448 - services.mock_data - INFO - Processing mock data file bot_filters.json for table bot_filters
+2026-03-06 12:04:03,449 - services.mock_data - INFO - Processing mock data file chat_groups.json for table chat_groups
+2026-03-06 12:04:03,451 - services.mock_data - INFO - Processing mock data file notifications.json for table notifications
+2026-03-06 12:04:03,452 - services.mock_data - INFO - Processing mock data file protection_settings.json for table protection_settings
+2026-03-06 12:04:05,519 - services.mock_data - INFO - Table authorized_roles already has 3 rows; skipping mock insert
+2026-03-06 12:04:05,564 - services.mock_data - INFO - Table notifications already has 6 rows; skipping mock insert
+2026-03-06 12:04:05,579 - services.mock_data - INFO - Processing mock data file site_commands.json for table site_commands
+2026-03-06 12:04:05,612 - services.mock_data - INFO - Table chat_groups already has 4 rows; skipping mock insert
+2026-03-06 12:04:05,613 - services.mock_data - INFO - Table protection_settings already has 4 rows; skipping mock insert
+2026-03-06 12:04:05,623 - services.mock_data - INFO - Processing mock data file warnings.json for table warnings
+2026-03-06 12:04:05,641 - services.mock_data - INFO - Table bot_filters already has 3 rows; skipping mock insert
+2026-03-06 12:04:06,533 - services.mock_data - INFO - Table site_commands already has 4 rows; skipping mock insert
+2026-03-06 12:04:06,632 - services.mock_data - INFO - Table warnings already has 5 rows; skipping mock insert
+2026-03-06 12:04:06,705 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-03-06 12:04:06,706 - services.database - INFO - 🔧 Starting database initialization...
+2026-03-06 12:04:06,706 - core.database - INFO - Starting database initialization...
+2026-03-06 12:04:06,706 - core.database - INFO - Database already initialized
+2026-03-06 12:04:06,706 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-03-06 12:04:06,706 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-06 12:04:06,706 - core.database - INFO - Tables already initialized
+2026-03-06 12:04:06,707 - services.database - INFO - 🔧 Table creation completed
+2026-03-06 12:04:06,707 - services.database - INFO - Database initialized successfully
+2026-03-06 12:04:06,707 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0016s
+2026-03-06 12:04:06,707 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-03-06 12:04:06,707 - core.config - DEBUG - Read dynamic attribute admin_user_email from environment variable ADMIN_USER_EMAIL
+2026-03-06 12:04:07,253 - services.auth - DEBUG - Admin user 993861 already exists
+2026-03-06 12:04:07,312 - main - INFO - === Application startup completed successfully ===
+2026-03-06 12:04:13,297 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:13,297 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:04:13,298 - routers.site_commands - DEBUG - Querying site_commandss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 12:04:13,305 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:13,306 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:04:13,306 - routers.chat_groups - DEBUG - Querying chat_groupss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 12:04:13,314 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:13,314 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:04:13,315 - routers.warnings - DEBUG - Querying warningss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 12:04:13,320 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:13,320 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:04:13,320 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=None, skip=0, limit=1000, fields=None
+2026-03-06 12:04:13,322 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:13,322 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-06 12:04:13,323 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:04:13,789 - routers.notifications - DEBUG - Found 6 notificationss
+2026-03-06 12:04:13,791 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4710s
+2026-03-06 12:04:13,792 - routers.notifications - DEBUG - Found 6 notificationss
+2026-03-06 12:04:13,793 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4708s
+2026-03-06 12:04:13,794 - routers.warnings - DEBUG - Found 5 warningss
+2026-03-06 12:04:13,795 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4811s
+2026-03-06 12:04:13,828 - routers.site_commands - DEBUG - Found 4 site_commandss
+2026-03-06 12:04:13,829 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5325s
+2026-03-06 12:04:13,841 - routers.chat_groups - DEBUG - Found 4 chat_groupss
+2026-03-06 12:04:13,845 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5393s
+2026-03-06 12:04:44,087 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-06 12:04:44,087 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-06 12:04:44,088 - routers.notifications - DEBUG - Querying notificationss: query={}, sort=-created_at, skip=0, limit=50, fields=None
+2026-03-06 12:04:44,441 - routers.notifications - DEBUG - Found 6 notificationss
+2026-03-06 12:04:44,442 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3552s
+2026-03-06 12:05:12,686 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-06 12:05:12,999 - core.database - INFO - Database connection closed and engine disposed
+2026-03-06 12:05:12,999 - services.database - INFO - Database connections closed
+2026-03-06 12:05:12,999 - services.database - DEBUG - [DB_OP] Database close completed in 0.3133s
